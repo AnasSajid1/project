@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E PROJECT</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   
+  <style>
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+footer {
+    background: #000000;
+    color: #3f3f3f;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 0;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #686565;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: #464646;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #fdfdfd;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #525252;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background: #111;
+    color: #5a5a5a;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .text-lg mb-2{ 
+            text-align: center;
+            margin-left: 800px;
+            margin-right:auto ;
+        }
+    
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #010101;
+            padding: 10px 20px;
+        }
+
+        .navbar img {
+            width: 100px;
+            height: auto;
+            border-radius: 70px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: #000000;
+            border-radius: 5px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            
+            display: none;
+            position: absolute;
+            background-color: #000000;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+            display: block;
+            text-decoration: none;
+            background-color: #000000;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #000000;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input {
+            padding: 7px;
+            font-size: 14px;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .search-bar button {
+            padding: 7px;
+            background-color: #000000;
+            border: none;
+            border-radius: 3px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        .search-bar button i {
+            color: white;
+        }
+
+        .cart-icon i {
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            
+        }
+        
+        
+    .carousel-container {
+        position: relative;
+        width: 800px;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .carousel {
+        display: flex;
+        transition: transform 2s ease-in-out ease;
+        width: 800px ;
+        height:auto;
+    }
+
+    .carousel img {
+        height: auto;
+        width: 800px;
+        object-fit: cover;
+    }
+
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        z-index: 10;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+
+    .prev { left: 10px; }
+    .next { right: 10px; }
+
+    .prev:hover, .next:hover {
+        background: black;
+    }
+        h2{
+            color: #fcfcfc;
+        }
+        .cooking-pan-Heading{
+            font-weight: bold;
+            text-align: center;
+            text-underline-position: auto;
+            font-size: xx-large;
+            text-decoration: underline;
+        }
+        .cards-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
+            background: #f5f5f5;
+            padding: 20px;
+            
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: 0.3s;
+            height: 400px
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+       
+
+        .card p {
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .card button {
+            margin-top: 40px;
+            padding: 8px 16px;
+            background: #000000;
+            color: rgb(243, 240, 240);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-bottom: 3px;
+            
+            
+        }
+
+        .card button:hover {
+            background: #4c4d4e;
+        }
+       .price-cd{
+        color: #000000;
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 4px;
+       }
+    </style>
+
+
+    <head>
+   <body>
+    
+    
+
+    <div class="navbar">
+        <a href="/images/Screenshot_20250216-231343~2.png">
+            <img src="/images/Screenshot_20250216-231343~2.png" alt="logo images">
+        </a>
+        
+        <div class="dropdown">
+            <a href="#cookware" class="dropbtn">Cookware</a>
+            <div class="dropdown-content">
+                <a href="/html/b.html">Cookware set</a>
+                <a href="/html/fryingpan.html">Frying Pans</a>
+                <a href="/html/cookingpot.html">Cooking pots</a>
+                <a href="/html/eggpoacher.html">Egg Poachers</a>
+                
+             </div>
+        </div>
+        
+        <div class="dropdown">
+            <a href="#baking" class="dropbtn">Appliances</a>
+            <div class="dropdown-content">
+                <a href="/html/c.html">Blenders</a>
+                <a href="/html/coffeemaker.html">Coffee Makers</a>
+                <a href="/html/kettle.html">Electric Kettles</a>
+                <a href="/html/foodchopper.html">Food Choppers</a>
+                <a href="/html/toasters.html">Toasters</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <a href="#cleaning" class="dropbtn">Cleaning</a>
+            <div class="dropdown-content">
+                
+                <a href="/html/scubbers.html">Scrubbers</a>
+                
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#ventilation" class="dropbtn">Food Storage</a>
+            <div class="dropdown-content">
+                <a href="/html/spicejar.html">Spice Jars</a>
+                <a href="/html/lunchbox.html">Lunch Boxes</a>
+                <a href="/html/vacuum.html">Vacuum bottles</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <a href="#refrigerations" class="dropbtn">Refrigeration</a>
+            <div class="dropdown-content">
+                <a href="/html/refrigerator.html">Refrigerators</a>
+                <a href="/html/freezer.html">Freezers</a>
+            </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="#Feedback">Feedback</a>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button><i class="fa fa-search"></i></button>
+        </div>
+
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </div>
+    <div>
+        <img src="/images/hd_image.png" alt="">
+    </div><br><br>
+    
+    <div class="text-center">
+        <h1 class="text-3xl font-bold mb-2">KitchenNova's Vision</h1>
+        <div class="w-16 h-1 bg-black mx-auto mb-4"></div>
+        <p class="text-lg mb-2">
+            At KitchenNova, we go beyond designing kitchen appliances—we create experiences that redefine everyday cooking. Our premium built-in appliances are crafted to inspire, innovate, and enhance your kitchen, ensuring excellence in every detail. With KitchenNova, you are always <span class="font-bold">Living Beyond Imagination.</span>
+       <br><br>
+   
+       <div class="carousel-container">
+        <div class="carousel">
+            <img src="/images/vector-illustration-realistic-silver-color-600nw-2202634611 (1).jpg" alt="Image 1">
+            <img src="/images/group-home-appliances-isolated-black-background_771335-32056 (1).jpg" alt="Image 2">
+            <img src="/images/9n9nmomg_appliances650_625x300_26_September_22 (1).jpg" alt="Image 3">
+            
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    
+    <script>
+        let index = 0;
+    
+        function moveSlide(step) {
+            const carousel = document.querySelector(".carousel");
+            const totalImages = document.querySelectorAll(".carousel img").length;
+            index = (index + step + totalImages) % totalImages;
+            carousel.style.transform = `translateX(${-index * 100}%)`;
+        }
+    
+        // Auto Slide Every 3 Seconds
+        setInterval(() => moveSlide(1), 3000);
+    </script><br><br>
+    
+    <h1 class="cooking-pan-Heading">Cookware Set</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/cooking6.jpg" alt="Card 1">
+                <p>Berlinger Haus Metallic Line Aquamarine Edition</p>
+                <h2 class="price-cd">$120.18</h2>
+                <button>Buy Now</button>
+            </div>
+    
+            <div class="card">
+                <img src="/images/images8131.jpg" alt="Card 2">
+                <p>30cm Diamo Frying Pan with Black Diamond Coating</p>
+                <h2 class="price-cd">$70.06</h2>
+                <button>Buy Now</button>
+            </div>
+    
+            <div class="card">
+                <img src="/images/Gift-Set-15-pieces-Non-Stick-Vario-800x800.jpg" alt="Card 4">
+                <p>Pots and Pans - Cookware Sets - Sterling Home</p>
+                <h2 class="price-cd">$85.43</h2>
+                <button>Buy Now</button>
+            </div>
+    
+            <div class="card">
+                <img src="/images/cookingpan5.jpg" alt="Card 4">
+ 
+                <p> 18-Piece Marble Coating Smart Lid Cookware Set - Carbon Pro</p>
+                <h2 class="price-cd">$146.07</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/Cuisinart+Advantage+Non+Stick+11+Pieces+Aluminum+Cookware+Set.jpg" alt="Card 3">
+                
+                <p> Tefal
+                    Titanium Force Frying Pan Twin Pack 20cm & 26cm</p>
+                    <h2 class="price-cd">$139.24</h2>
+                <button>Buy Now</button>
+            </div><div class="card">
+                <img src="/images/DP0830202311155186M.jpg" alt="Card 3">
+              <p>Signal non-stick frying pan 20cm | Home & Kitchen</p>
+              <h2 class="price-cd">$84.05</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+   <h1 class="cooking-pan-Heading">Blenders</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class=" card">
+                <img src="/images/images76.jpg" alt="Card 1">
+                <p>KitchenNova Juicer Blender (3 in 1) - GN-1777/21 - Black</p>
+                <h2 class="price-cd">$236.73</h2>
+                <button>Buy Now</button>
+            </div>
+    
+            <div class="card">
+                <img src="/images/Panasonic-MJ-H300KTJ-Juicer-with-Tumbler-Blender-Black.jpg" alt="Card 2">
+                <p> Juicer/Blender MJ-CB800 - Online KitchenNova Store in Karachi</p>
+                <h2 class="price-cd">$193.42</h2>
+                <button>Buy Now</button>
+            </div>
+    
+            <div class="card">
+                <img src="/images/8c82bc055bee02f3f391206f08f2f578.jpg" alt="Card 4">
+                <p>KitchenNova 800W Stainless Steel 3 in 1 juicer Blender Grinder MJ-DJ31</p>
+                <h2 class="price-cd">$159.05</h2>
+                <button>Buy Now</button>
+            </div>
+    
+            <div class="card">
+                <img src="/images/LNUB5JS01_1.jpg" alt="Card 4">
+ 
+                <p>KitchenNova 3 IN 1 Juicer Blender Dry mill WF-8824 - KitchenNova.com</p>
+                <h2 class="price-cd">$179.38</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/575BlackWS_1800x1800.jpg" alt="Card 3">
+                
+                <p> Juicer Blender Grinder AG-189 - online in KitchenNova store</p>
+                <h2 class="price-cd">$267.35</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/1ModelMJ-DJ31.jpg" alt="Card 3">
+              
+                <p>KitchenNova 3 in 1 Juicer Blender Grinder Set Kitchen Food Processor </p>
+                <h2 class="price-cd">$184.05</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Coffee Maker</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class=" card">
+                <img src="/images/H5ed6b1022ff6453da62d5945e3169cdbh.jpg_720x720q50.jpg" alt="Card 1">
+                <p>Professional Coffee Powder Press Machine Espresso Coffee Maker</p>
+                <h2 class="price-cd">$224.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class=" card">
+                <img src="/images/Farberware-Side-by-Side-Single-Serve-or-12-Cup-Coffee-Maker-Black-with-Stainless-Inset-New_dd7db96d-5e6f-4515-b9b7-880ed8e51bfb.04374ee6506db487994d90359f6ad3d9.jpg" alt="Card 1">
+                <p>Farberware Side by Side Single Serve or 12 Cup Coffee Maker</p>
+                <h2 class="price-cd">$213.84</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class=" card">
+                <img src="/images/2068a067a954858f1cdfa8bc1ee1c7d7.jpg_720x720q80.jpg" alt="Card 1">
+                <p>BLACK + DECKER DCM25 - 1 Cup Coffee Maker - Black | KitchenNova</p>
+                <h2 class="price-cd">$136.70</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class=" card">
+                <img src="/images/FellowAidenBlkCffMkSSF24_VND.jpg" alt="Card 1">
+                <p>Coffee Makers & Coffee Machines | Crate & Barrel Canada</p>
+                <h2 class="price-cd">$242.67</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class=" card">
+                <img src="/images/images.jpg6421.jpg" alt="Card 1">
+                <p>Black Coffee Makers - Homedepot | KitchenNova</p>
+                <h2 class="price-cd">$194.90</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class=" card">
+                <img src="/images/61BZhhKqmdL._AC_UL495_SR435,495_.jpg" alt="Card 1">
+                <p>Black Coffee Maker, 12 Cups, with Auto Pause and Glass Carafe</p>
+                <h2 class="price-cd">$166.53</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Refrigerators</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/toshiba-445l-double-door-refrigerator-black-glass-finish-gr-ag46inxk-banner-2.jpg" alt="Card 1">
+                <p>KitchenNova 445L Double Door Refrigerator with Black Glass Finish</p>
+                <h2 class="price-cd">$367.18</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/haier-hrf-619ks-565-500x500.jpg" alt="Card 1">
+                <p>Electricity Black - HRF-619KS Side By Side Refrigerator, Capacity: 565L </p>
+                <h2 class="price-cd">$464.48</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/black-frigidaire-top-freezer-refrigerators-fftr1835vb-64_400.jpg" alt="Card 1">
+                <p>Black - Refrigerators - The Home Depot</p>
+                <h2 class="price-cd">$370.78</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/thum-350x350.jpg" alt="Card 1">
+                <p>All Refrigerators : Find the Products You Need | KitchenNova IN</p>
+                <h2 class="price-cd">$470.38</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images695.jpg" alt="Card 1">
+                <p>SIDE REFRIGERATOR 518L 67BGL BLACK GLASS WITH DISPENSER</p>
+                <h2 class="price-cd">$385.47</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/360-litre-double-door-refrigerator-500x500.jpg" alt="Card 1">
+                <p>4 Star Linear Cooling 360 Litre Double Door Refrigerator</p>
+                <h2 class="price-cd">$240.50</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Deep Freezers</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/100L-Top-Load-Chest-Freezer-Black-Color-Freezer-Deep-Freezer-for-Sale.jpg" alt="Card 1">
+                <p>100L Top Load Chest Freezer Black Color Freezer Deep Freezer</p>
+                <h2 class="price-cd">$467.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9932.jpg" alt="Card 1">
+                <p>A black deep hot sale freezer | KitchenNova.com</p>
+                <h2 class="price-cd">$477.58</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/8dpgut9_gslns8howhcexnew.jpg" alt="Card 1">
+                <p>Akwrj Aviant Chest Deep Freezer, Defrost, 300 Liter, Black - AK340</p>
+                <h2 class="price-cd">$349.28</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images8485.jpg" alt="Card 1">
+                <p>VSN GD Chest Freezer RE-350L Black | KitchenNova.com</p>
+                <h2 class="price-cd">$367.18</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/314t-curi-e2-l-ac-1.jpg" alt="Card 1">
+                <p>Get Chest Freezer Passap Stainless Steel, 283 Liters</p>
+                <h2 class="price-cd">$431.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/3d5afc36-2420-44a8-966a-90bad5715a75.__CR0,0,600,450_PT0_SX600_V1___.jpg" alt="Card 1">
+                <p>Chest Freezer Small Deep Freezer Black 3.5 Cu.Ft Free-Standing</p>
+                <h2 class="price-cd">$353.10</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Electric Kettles</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/kyky.jpg" alt="Card 1">
+                <p>Electric Kettle | SWK 1798BK | Sencor.com</p>
+                <h2 class="price-cd">$467.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/aera2.jpg" alt="Card 1">
+                <p>Salter Deco 1.7L Kettle - Black | Charlies</p>
+                <h2 class="price-cd">$467.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/W7NRF_SQ1_0000000029_MULTI_SLf.jpg" alt="Card 1">
+                <p>GOODGAD Gooseneck Electric Kettle, 0.9L Rapid Ireland</p>
+                <h2 class="price-cd">$467.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/istockphoto-1288604206-612x612.jpg" alt="Card 1">
+                <p>GNE Electric Kattle 1.7 GN-8607 | KitchenNova</p>
+                <h2 class="price-cd">$467.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/H1215fc4ca2bc4cca909fab5004dbde00t.jpg_720x720q50.jpg" alt="Card 1">
+                <p> New Products Hotel Special Kettle Set Small Capacity</p>
+                <h2 class="price-cd">$467.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/ES1018.jpg" alt="Card 1">
+                <p>Kettles : Swan ALEXA Smart 1.5 Litre Kettle with LED Touch</p>
+                <h2 class="price-cd">$467.15</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    
+    <h1 class="cooking-pan-Heading">Frying Pans</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/black-frying-pan-from-multicolored-paints-splash-watercolor-colored-drawing-realistic_537015-94.jpg" alt="Card 1">
+                <p>Premium Vector | Black frying pan from multicolored paints Splash </p>
+                <h2 class="price-cd">$87.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/web_7431.jpg" alt="Card 1">
+                <p>Black Frying Pan | KitchenNova | 34cm | KitchenNova.com</p>
+                <h2 class="price-cd">$67.50</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/pngtree-black-frying-pan-vector-design-png-image_14637509.jpg" alt="Card 1">
+                <p>Soft Touch Non-Stick Frying Pan - Black | Homebase</p>
+                <h2 class="price-cd">$87.35</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9543.jpg" alt="Card 1">
+                <p>Smart Start 28cm Ultra Forged Frying Pan | Housewares</p>
+                <h2 class="price-cd">$76.99</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/46809917-Tower-Diamond-30cm-Frying-Pan-with-Black-Diamond-Coating-1.jpg" alt="Card 1">
+                <p>Tower Diamond 30cm Frying Pan with Black Diamond Coating</p>
+                <h2 class="price-cd">$97.04</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/web_3950571_001_7e85.jpg" alt="Card 1">
+                <p>Frying pan non-stick Phantom 28cm | KitchenNova Official Website</p>
+                <h2 class="price-cd">$47.15</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Egg Poachers</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/a4233289-ce6d-41c4-afa2-19e82eb891a1.__CR0,0,300,300_PT0_SX300_V1___.jpg" alt="Card 1">
+                <p>Eggssentials Egg Poacher Insert Stainless Steel Poached Egg Cooker</p>
+                <h2 class="price-cd">$47.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/S6eeb48e117984f68b34fa7823f8d787eg.jpg_640x640q90.jpg" alt="Card 1">
+                <p>Stainless Steel Boiling Eggs Spoon with Hook Black Nonstick</p>
+                <h2 class="price-cd">$46.25</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/43133.jpg" alt="Card 1">
+                <p>HIC Kitchen Non-Stick 3-Egg Poacher Insert | KitchenNova.com</p>
+                <h2 class="price-cd">$53.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/fox-run-egg-poachers-4498-64_400.jpg" alt="Card 1">
+                <p>Egg Poachers - The Home Depot | KitchenNova.com</p>
+                <h2 class="price-cd">$75.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9922.jpg" alt="Card 1">
+                <p>TechnIQ Egg Poacher, 6 bowls | KitchenNova.com</p>
+                <h2 class="price-cd">$67.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9923.jpg" alt="Card 1">
+                <p>Vogue Aluminium Egg Poacher 350mm - K892 - Nisbets | KitchenNova</p>
+                <h2 class="price-cd">$47.75</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Cooking Pots</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/Wholesale-10PCS-Black-Nonstick-Cooking-Pot-Set-Frying-Pan-Casserole-Non-Stick-Cookware.jpg" alt="Card 1">
+                <p>Wholesale 10PCS Black Nonstick Cooking Pot Set</p>
+                <h2 class="price-cd">$66.10</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/Hc8635b6c861b4d239632b0f99e1998c5j.jpg_720x720q50.jpg" alt="Card 1">
+                <p>5-Piece Non-Stick Cookware Set Black Pots and Pans | KitchenNova</p>
+                <h2 class="price-cd">$47.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/NEW-CASSEROLE-COOL-BLACK-NONSTICK-POT-FOR-COOKING.jpg" alt="Card 1">
+                <p>New Cookware Die Casserole Cool Black Non Stick Pot For Cooking</p>
+                <h2 class="price-cd">$46.95</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/03_104248822_SI_00.jpg" alt="Card 1">
+                <p>5 PIECE COOKWARE SET - 1 - Black | SHEET STREET</p>
+                <h2 class="price-cd">$57.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/Sauce-pan-Non-Stick-247x247.jpg" alt="Card 1">
+                <p>Klassic Kitchenware - Best Cookware & KitchenNova Brand </p>
+                <h2 class="price-cd">$54.99</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/C34BUK_01.jpg" alt="Card 1">
+                <p>Ninja ZEROSTICK Premium 2-Piece Stock Pot and Frying Pan Set</p>
+                <h2 class="price-cd">$99.00</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Food Choppers</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/chopper1.avif" alt="Card 1">
+                <p>Black+Decker 1.5-Cup Food Chopper HC150B, Color: Black </p>
+                <h2 class="price-cd">$87.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/chopper2.avif" alt="Card 1">
+                <p>Braun Easyprep Food Processor, Color: Black - JCPenney</p>
+                <h2 class="price-cd">$59.95</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/FP3200BL-XLchopper3.jpg" alt="Card 1">
+                <p>Magimix Compact 3200 XL Food Processor Black |</p>
+                <h2 class="price-cd">$47.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/VONSHEF-MINI-CHOPPER-9c91822 .jpg" alt="Card 1">
+                <p>Vonshef mini chopper - Review | Good Food | KitchenNova</p>
+                <h2 class="price-cd">$46.05</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/25011714~black_0.jpg" alt="Card 1">
+                <p>Kitchenaid 9 Cup Food Processor In Black - 0% Off | Editorialist</p>
+                <h2 class="price-cd">$67.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9924.jpg" alt="Card 1">
+                <p>Reviews for Braun Easy Prep 4-Cup Black Food Chopper </p>
+                <h2 class="price-cd">$87.99</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Toasters</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/russell-hobbs_21641_564242_34-0100-0205.jpg" alt="Card 1">
+                <p>Domestic Appliances Belfast | Russell Hobbs 21641 Black </p>
+                <h2 class="price-cd">$267.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/tmppet201_2.jpg" alt="Card 1">
+                <p>2 Slice Toaster, Black - Binuns South Africa | KitchenNova</p>
+                <h2 class="price-cd">$184.17</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/ST14071BLK_grande.jpg" alt="Card 1">
+                <p>Windsor 2 Slice Textured Toaster | Swan Brand | KitchenNova</p>
+                <h2 class="price-cd">$167.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9925.jpg" alt="Card 1">
+                <p>Morphy Richards 222064 2 Slice Toaster - Black </p>
+                <h2 class="price-cd">$177.25</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9926.jpg" alt="Card 1">
+                <p>Russell Hobbs Honeycomb 2 Slice Black Toaster 26061</p>
+                <h2 class="price-cd">$219.99</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9927.jpg" alt="Card 1">
+                <p>Black 2 Slice Toaster - Binuns South Africa | KitchenNova</p>
+                <h2 class="price-cd">$259.99</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Scrubbers</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/411_20pYO1VpL_large.webp" alt="Card 1">
+                <p>Silicone Body Scrubber Black – colourtouch</p>
+                <h2 class="price-cd">$17.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/s-l1200.jpg" alt="Card 1">
+                <p>Silicone Body Scrubber, Exfoliating Wash Scrubbers Exfoliator</p>
+                <h2 class="price-cd">$46.65</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9928.jpg" alt="Card 1">
+                <p>Buy Floor Scrubber Pad - Black - Imagine Care Limited</p>
+                <h2 class="price-cd">$34.99</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/plastic-scrubber-500x500.jpg" alt="Card 1">
+                <p>PLASTIC Nylon Kitchen Scrubber (BLACK), Hdpe Naro Fabric</p>
+                <h2 class="price-cd">$26.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/51f+v20MaXL._AC_.jpg" alt="Card 1">
+                <p>Stainless Steel Scrubber with Handle Pot Dish Cleaning</p>
+                <h2 class="price-cd">$37.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/20-inch-floor-scrubber-pads-black-case-5.jpg" alt="Card 1">
+                <p>Black 20" Pads Case of 5 for Floor Scrubber</p>
+                <h2 class="price-cd">$19.99</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Vacuum Bottles</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/Custom-Logo-Color-50oz-64oz-Stainless-Steel-Vacuum-Hot-Cold-Gym-Sports-Drinking-Water-Bottles-with-Straw.jpg" alt="Card 1">
+                <p>Stainless Steel Vacuum Hot Cold Gym Sports Drinking Water Bottles</p>
+                <h2 class="price-cd">$47.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/mm3.jpg" alt="Card 1">
+                <p>Promotional Forever Vacuum Bottle | Total Merchandise</p>
+                <h2 class="price-cd">$46.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/400.jpg" alt="Card 1">
+                <p>Thermos Water Bottle 1 Litre Vacuum Flask Eco-friendly Drinking Water</p>
+                <h2 class="price-cd">$36.85</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/hure.jpg" alt="Card 1">
+                <p>Imprinted Vacuum Water Bottles with Silicone Bottom </p>
+                <h2 class="price-cd">$48.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/41066280000001_01.jpg" alt="Card 1">
+                <p>Black Metal Water Bottles | rushIMPRINT</p>
+                <h2 class="price-cd">$42.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/torpedo7-double-wall-stainless-steel-vacuum-bottle-black-image02-i020520.jpg" alt="Card 1">
+                <p>Torpedo7 Double Wall Stainless Steel Vacuum Bottle | Bottles</p>
+                <h2 class="price-cd">$52.65</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Lunch Boxes</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/08-5566e0f2-c700-4c5f-913d-02faf4773f2a-500x500.jpg" alt="Card 1">
+                <p>Black Transparent 4 Compartment Lunch Box for Kids and adults</p>
+                <h2 class="price-cd">$67.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/PP-BC19-black.jpg" alt="Card 1">
+                <p>MIYO Eco Lunch Box - Double - Spot Colour</p>
+                <h2 class="price-cd">$46.99</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9929.jpg" alt="Card 1">
+                <p>Eco-Friendly Restaurant Kitchen Storage Food PP Plastic Lunch Box</p>
+                <h2 class="price-cd">$70.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/mo6638-03-print.jpg" alt="Card 1">
+                <p>Stainless steel lunchbox 750ml personalised from 3 pcs | IGO</p>
+                <h2 class="price-cd">$47.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/02-207f9fe2-edca-42a8-adf7-5a61de435e26-500x500.webp" alt="Card 1">
+                <p>Black Transparent 4 Compartment Lunch Box for Kids and adults</p>
+                <h2 class="price-cd">$52.10</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/B2B_Web_PNG-Stanley_Classic-Lunchbox-10qt-Matte-Black_d5210a50-d945-4298-ba5a-dd74b8cc9e01.jpg" alt="Card 1">
+                <p>Classic Metal Lunch Box | 10 oz | Stainless Steel | Stanley</p>
+                <h2 class="price-cd">$44.15</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="cooking-pan-Heading">Spice Jar</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/H52-805-主图视频.mp4.webp" alt="Card 1">
+                <p>Product Packaging Private Label Plastic Transparent Pet Spice Jar</p>
+                <h2 class="price-cd">$18.25</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9930.jpg" alt="Card 1">
+                <p>Buy Borosil Neo Spice Jar Online at Best Price</p>
+                <h2 class="price-cd">$27.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/2oz-black-glass-smooth-1_1800x1800__90839.jpg" alt="Card 1">
+                <p>Huge Selections of Spice Jars on SALE | KitchenNova</p>
+                <h2 class="price-cd">$23.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/spice-jar-002.jpg" alt="Card 1">
+                <p>120ml 180ml 250ml Square Glass Spice Jars with Black Lids </p>
+                <h2 class="price-cd">$19.99</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/30g-50g-round-face-matte-black-cream-glass201908051700464279983__21367.jpg" alt="Card 1">
+                <p>Huge Selections of Spice Jars on SALE</p>
+                <h2 class="price-cd">$31.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9931.jpg" alt="Card 1">
+                <p>120ml 180ml 250ml Square Glass Spice Jars with Black Lids </p>
+                <h2 class="price-cd">$27.99</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+   
+    
+      <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>KitchenNova</h2>
+                <p>KitchenNova Is A Leading Built-In Kitchen Appliances Brand In Pakistan, With Consistent Research And Innovative Workforce.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Karachi,Pakistan</p>
+                <p><i class="fas fa-phone"></i> +923000000009</p>
+                <p><i class="fas fa-envelope"></i>KitchenNova01.com.pk</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 KitchenNova. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+
+</body>
+</html>
