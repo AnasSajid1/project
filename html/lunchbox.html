@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E PROJECT</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .text-lg mb-2{ 
+            text-align: center;
+            margin-left: 800px;
+            margin-right:auto ;
+        }
+    
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #010101;
+            padding: 10px 20px;
+        }
+
+        .navbar img {
+            width: 100px;
+            height: auto;
+            border-radius: 70px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: #000000;
+            border-radius: 5px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            
+            display: none;
+            position: absolute;
+            background-color: #000000;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+            display: block;
+            text-decoration: none;
+            background-color: #000000;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #000000;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input {
+            padding: 7px;
+            font-size: 14px;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .search-bar button {
+            padding: 7px;
+            background-color: #000000;
+            border: none;
+            border-radius: 3px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        .search-bar button i {
+            color: white;
+        }
+
+        .cart-icon i {
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .cooking-pan-Heading{
+            font-weight: bold;
+            text-align: center;
+            text-underline-position: auto;
+            font-size: xx-large;
+            text-decoration: underline;
+        }
+        .cards-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
+            background: #f5f5f5;
+            padding: 20px;
+            
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: 0.3s;
+            height: 400px
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+       
+
+        .card p {
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .card button {
+            margin-top: 40px;
+            padding: 8px 16px;
+            background: #000000;
+            color: rgb(243, 240, 240);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-bottom: 3px;
+            
+            
+        }
+
+        .card button:hover {
+            background: #4c4d4e;
+        }
+       .price-cd{
+        color: #000000;
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 4px;
+       }
+    </style>
+   <head>
+    <body>
+        
+    
+        <div class="navbar">
+            <a href="/images/Screenshot_20250216-231343~2.png">
+                <img src="/images/Screenshot_20250216-231343~2.png" alt="logo images">
+            </a>
+            
+            <div class="dropdown">
+                <a href="#cookware" class="dropbtn">Cookware</a>
+                <div class="dropdown-content">
+                    <a href="/html/b.html">Cookware set</a>
+                    <a href="/html/fryingpan.html">Frying Pans</a>
+                    <a href="/html/cookingpot.html">Cooking pots</a>
+                    <a href="/html/eggpoacher.html">Egg Poachers</a>
+                    
+                 </div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="#baking" class="dropbtn">Appliances</a>
+                <div class="dropdown-content">
+                    <a href="/html/c.html">Blenders</a>
+                    <a href="/html/coffeemaker.html">Coffee Makers</a>
+                    <a href="/html/kettle.html">Electric Kettles</a>
+                    <a href="/html/foodchopper.html">Food Choppers</a>
+                    <a href="/html/toasters.html">Toasters</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="#cleaning" class="dropbtn">Cleaning</a>
+                <div class="dropdown-content">
+                    
+                    <a href="/html/scubbers.html">Scrubbers</a>
+                    
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#ventilation" class="dropbtn">Food Storage</a>
+                <div class="dropdown-content">
+                    <a href="/html/spicejar.html">Spice Jars</a>
+                    <a href="/html/lunchbox.html">Lunch Boxes</a>
+                    <a href="/html/vacuum.html">Vacuum bottles</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="#refrigerations" class="dropbtn">Refrigeration</a>
+                <div class="dropdown-content">
+                    <a href="/html/refrigerator.html">Refrigerators</a>
+                    <a href="/html/freezer.html">Freezers</a>
+                </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="#Feedback">Feedback</a>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+    
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+    <h1 class="cooking-pan-Heading">Lunch Boxes</h1>
+    <div class="cards-body">
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/08-5566e0f2-c700-4c5f-913d-02faf4773f2a-500x500.jpg" alt="Card 1">
+                <p>Black Transparent 4 Compartment Lunch Box for Kids and adults</p>
+                <h2 class="price-cd">$67.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/PP-BC19-black.jpg" alt="Card 1">
+                <p>MIYO Eco Lunch Box - Double - Spot Colour</p>
+                <h2 class="price-cd">$46.99</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/images9929.jpg" alt="Card 1">
+                <p>Eco-Friendly Restaurant Kitchen Storage Food PP Plastic Lunch Box</p>
+                <h2 class="price-cd">$70.00</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/mo6638-03-print.jpg" alt="Card 1">
+                <p>Stainless steel lunchbox 750ml personalised from 3 pcs | IGO</p>
+                <h2 class="price-cd">$47.15</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/02-207f9fe2-edca-42a8-adf7-5a61de435e26-500x500.webp" alt="Card 1">
+                <p>Black Transparent 4 Compartment Lunch Box for Kids and adults</p>
+                <h2 class="price-cd">$52.10</h2>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img src="/images/B2B_Web_PNG-Stanley_Classic-Lunchbox-10qt-Matte-Black_d5210a50-d945-4298-ba5a-dd74b8cc9e01.jpg" alt="Card 1">
+                <p>Classic Metal Lunch Box | 10 oz | Stainless Steel | Stanley</p>
+                <h2 class="price-cd">$44.15</h2>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
